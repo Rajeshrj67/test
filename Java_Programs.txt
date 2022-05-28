@@ -1,0 +1,47 @@
+16/05/2022
+__________
+//diamond a problem
+public class A
+{
+A(){
+
+}
+}
+
+public class B
+{
+B(){
+
+}
+}
+
+public class C extends A,B
+{
+C(){
+super();//by default
+super();//not allowed only one super call statement
+}
+}
+
+access private variable without encapsulation:
+_____________________________________________
+
+public class A {
+
+	private int a=10;
+	
+	public String toString() {
+		return "value is "+a;
+	}
+}
+public class B {
+
+	public static void main(String[] args) {
+
+		A a1=new A();
+		System.out.println(a1);//value is 10
+	}
+}
+
+17/05/22
+--------
