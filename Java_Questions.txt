@@ -1,0 +1,25 @@
+1)what is Encapsulation?
+	->encapsulation is the process of hiding the internal states and requiring all the interactions to be
+performed only through some non-static methods.
+
+	->encapsulation is nohing but creating an object for a public class which is having private data 
+members and we are accessing and modifying those data members in another class by using getters and setters 
+methods.
+
+2)how to achieve encapsulation?
+	->we can achieve encapsulation by making the data members of a class as private and providing getters 
+and setters methods to access and modify those data in another class.
+
+3)where did you use encapsulation in your framework?How?
+	->In our framework we have achieved encapsulation in pom classes, framework developers have written 
+webelements using private access modifiers and they have provided getters method to access those private data 
+members, so here we are achieving encapsulation. 
+
+4)why did you use encapsulation in your framework?
+	->mainly we have used encapsulation for security purpose
+	->to achieve data hiding
+
+5)what is pom class?which concept of java used in pom class?
+	->pom (page Object Model) is an java designed pattern,
+
+
